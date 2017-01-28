@@ -1,0 +1,74 @@
+Lesson 1 reflections
+Date: 06.10.2016
+
+Question: How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+A1: I only see the differences between to files
+A2: This reduces the number of lines to check 
+A3: I hence will find corrupt words or code more easily
+A4: I can better undo the changes made to one document
+
+Question: How could having easy access to the entire history of a 
+file make you a more efficient programmer in the long term?
+A1: You can see your solutions in the past
+A2: This is better than to rely on your memory
+A3: You can possibly search the history
+A4: You can go back to an old state of your document (revert changes)
+A5: You can easily undo your changes
+A6: You learn to think in versions
+
+Question: What do you think are the pros and cons of manually choosing 
+when to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google Docs does?
+Pros:
+- you better know what logical entities of work are
+- hence you better can select apropriate units of changes to commit
+Cons:
+- you can easily forget to commit
+- in cases where unexpected causes prevent you from commiting, 
+like being interrupted or having the computer crashed, it may good 
+to have some auto-commit on
+
+Question: Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, like Google 
+Docs, treat each file separately?
+Google Docs:
+- each file like a Word document is separate from each other file 
+like, say, an Excel file, by content
+Git:
+- the files are interrelated, that is, they 'work' together (exchanging 
+data and relying on each other during execution), so each new version of 
+a file needs the version at the same point in time of the other files
+- of course this implies that any implementation, as far as it has impact 
+on more than one file, is done on any file in question at the -- roughly -- 
+same point in time
+- it would be desasterous if files do not fit together or even the knowledge 
+of what files belon together has been lost
+
+Question: How can you use the commands git log and git diff to view the 
+history of files?
+Git log:
+- you can see all commits (of all files that are contained in this repository)
+- you see the date, the author and a comment
+Git diff:
+- you can see the changes made between two versions of commits (including their
+files)
+
+Question: How might using version control make you more confident to make 
+changes that could break something?
+- I am sure to find the line of code introducting the bad change
+
+Question: How do you want to use GitHub
+- As I have used GitHub today for showing my code of the Android Basics project, 
+I am sure that I want to use GitHub for sharing code
+- But because I had today the problem that my older code was completely lost 
+because I had reworked it completely, I want to use Git for version controlling 
+my own code
+
+
+
+
+
+
+
+
