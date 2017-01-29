@@ -10,8 +10,8 @@ Question: What happens when you initialize a repository? What do you need to do 
 -- git is installed
 -- execute git init command
 
-Question: What is the difference between Staging Area and Repository and Staging Area 
-and Working Directory
+Question: What is the difference between Staging Area and 
+Repository and Staging Area and Working Directory
 - The Repository contains the commits, that is all the files (and their state) which are 
 contained in the Staging Area
 - The Staging Area on the other hand does only contain the files that the user selects 
@@ -21,3 +21,4 @@ in order to have them in the staging area so that these can be commited to the R
 of subsets of the Working Directory at a certain point in time
 - What value does the Staging Area offer? 
 1) It allows for keeping the commits as small as possible
+2) I further need to investigate the difference
