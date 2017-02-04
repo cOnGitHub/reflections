@@ -22,3 +22,11 @@ of subsets of the Working Directory at a certain point in time
 - What value does the Staging Area offer? 
 1) It allows for keeping the commits as small as possible
 2) I further need to investigate the difference
+
+Question: How can you use the staging area to make sure you 
+have one commit per logical change?
+- I can add as many files and changes to the staging area until 
+all part of the logical change have been added
+- then I commit these changes together in one single commit
+- so I can use the Staging Area as a pool for changes which belong to one single
+logical change
