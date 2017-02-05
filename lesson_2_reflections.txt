@@ -30,3 +30,11 @@ all part of the logical change have been added
 - then I commit these changes together in one single commit
 - so I can use the Staging Area as a pool for changes which belong to one single
 logical change
+
+Question: What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+- Situation 1: try out some new features which require some commits
+- if changes are not satisfying, go back to master branch
+- if changes are satisfying, merge them with master branch
+- Situation 2: develop two similar versions in parallel
+- In both situations, branches keep sets of commits separated 
