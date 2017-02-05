@@ -38,3 +38,8 @@ history organized? How would branches help?
 - if changes are satisfying, merge them with master branch
 - Situation 2: develop two similar versions in parallel
 - In both situations, branches keep sets of commits separated 
+
+Question: How do the diagrams help you visualize the branch structure?
+- They show all the branches together in one diagram
+- This is not possible when using git log
+
