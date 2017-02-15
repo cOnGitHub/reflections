@@ -50,3 +50,11 @@ Why do we represent it in the diagram the way we do?
 - The diagram is used in order to graphically distinguish between the commits
 belonging to one branch from those from another
 
+Question: What are the pros and cons of Git’s automatic merging vs. always 
+doing merges manually?
+- Git automatic:
+-- Pros: quick, reliable
+-- Cons: cannot resolve conflicts
+- Manually:
+-- Pros: human knowledge can detect and resolve conflicts
+-- Cons: slow, unreliable
