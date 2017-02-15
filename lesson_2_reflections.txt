@@ -43,3 +43,10 @@ Question: How do the diagrams help you visualize the branch structure?
 - They show all the branches together in one diagram
 - This is not possible when using git log
 
+Question: What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+- Merging two branches will combine the code of both branches into one branch
+- For Git Log, the branch does now contain all commits from both branches
+- The diagram is used in order to graphically distinguish between the commits
+belonging to one branch from those from another
+
