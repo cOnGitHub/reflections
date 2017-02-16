@@ -5,3 +5,10 @@ rather than keeping all your work local?
 - when storing my work online while working on it from 
 different locations and computers
 - when I want to have a second storage as a backup
+
+Questions: Why might you want to always pull changes manually rather 
+than having Git automatically stay up-to-date with your remote repository?
+- you don't know who is (possibly) working on your GitHub repository
+- so you have no control on what changes are introduced
+- so you don't know what changes will be introduced locally by pull
+- also, git doesn't know which branch and which commit to pull
