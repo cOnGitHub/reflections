@@ -6,9 +6,24 @@ rather than keeping all your work local?
 different locations and computers
 - when I want to have a second storage as a backup
 
-Questions: Why might you want to always pull changes manually rather 
+Question: Why might you want to always pull changes manually rather 
 than having Git automatically stay up-to-date with your remote repository?
 - you don't know who is (possibly) working on your GitHub repository
 - so you have no control on what changes are introduced
 - so you don't know what changes will be introduced locally by pull
 - also, git doesn't know which branch and which commit to pull
+
+Question: Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+- A fork is a copy of a repository in GitHub
+- This copy will save a link to the original repository
+- Any changes in the fork will not reflect in the original repository
+- The user of the fork will have no access to the original repository 
+by having access to the fork
+- Users can collaborate on the fork (without any effect to the original
+repository)
+- A clone is a copy of a repository either on your own machine or between
+you machine (local repository) and GitHub
+- You tend to reflect changes of you local repository to the one on GitHub
+and vice versa
+- A branch is subset of commits in a repository
