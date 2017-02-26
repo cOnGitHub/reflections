@@ -27,3 +27,13 @@ you machine (local repository) and GitHub
 - You tend to reflect changes of you local repository to the one on GitHub
 and vice versa
 - A branch is subset of commits in a repository
+
+Question: What is the benefit of having a copy of the last known state 
+of the remote stored locally?
+- You can always get a list of changes you made since the last known state
+of the remote
+- And you can merge your changes into the last known state of the 
+remote
+- I you had not a local copy of the remote, you would never know
+- And you would have to rely on the actual state of the remote which 
+may change rapidly
