@@ -36,4 +36,4 @@ of the remote
 remote
 - I you had not a local copy of the remote, you would never know
 - And you would have to rely on the actual state of the remote which 
-may change rapidly.
+may change very fast
