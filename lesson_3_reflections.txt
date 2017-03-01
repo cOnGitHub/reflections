@@ -37,3 +37,14 @@ remote
 - I you had not a local copy of the remote, you would never know
 - And you would have to rely on the actual state of the remote which 
 may change very fast
+
+Question: How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+- I would use a communication channel like Email of phone
+- I would then inform my colleagues on any new changes 
+- I would then send them the repository; alternatively, all members
+have access to the same repository
+- advantage Git and GitHub: version-control, I can go back and forth in the 
+list of changes
+- many can work on the same repository, either directly On gitHub, or each on 
+his local repository he then will push
