@@ -48,3 +48,11 @@ have access to the same repository
 list of changes
 - many can work on the same repository, either directly On gitHub, or each on 
 his local repository he then will push
+
+Question: When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+- I make changes to a separate branch when I want to experiment and/or when I 
+want to collaborate
+- in both cases I can undo changes and find collaborative solutions - without 
+affecting the master branch
+- when changes seem working I can merge them into master
